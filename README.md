@@ -25,5 +25,6 @@ Script for assign apk and generate keystore file
 
 ##### NOTE:
 
-- The signature .keystore file will be created in the root of the project with the name that you put in the variable `APK_ID`
+- The .keystore file will be created in the root of the project with the name that you put in the variable `APK_ID`
+- The signed APK file is saved in the project root with the name used in the variable `APK_ID`
 - The `PATH_FILE` constant tells you where the APK is generating the unsigned Android release APK
