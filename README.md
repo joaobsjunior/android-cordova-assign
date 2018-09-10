@@ -7,7 +7,7 @@ Script for assign apk and generate keystore file
 
 #### REQUIREMENTS
 
-- Running only in JavaSDK 8 (Searching a soluction for JavaSDK 10)
+- Running only in Java SDK 8 (Searching a soluction for Java SDK 10)
 - Have the `ANDROID_HOME` environment variable pointing to the Android SDK folder
 - Have added the android platform to the project:
     ```sh
