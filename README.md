@@ -12,6 +12,17 @@ Script for assign apk and generate keystore file
     ```sh
     $ ionic cordova platform add android
     ```
+- Change the variables in keystore.sh file:
+    ```sh
+    APK_ID="MyApp" # application name (no spaces or special characters)
+    APK_KEYSTORE_PASSWORD="password" # keystore password
+    APK_KEYSTORE_NAME="Name" # owner name
+    APK_KEYSTORE_ORG_UNIT="CompanyX" # company nickname 
+    APK_KEYSTORE_ORG_NAME="Company X" # company name
+    APK_KEYSTORE_CITY="city" # city
+    APK_KEYSTORE_STATE="state" # state
+    APK_KEYSTORE_COUNTRY="country" # country
+    ```
 
 #### EXECUTION
 - To generate the .keystore:
