@@ -17,7 +17,7 @@ APK_KEYSTORE_STATE="state" # state
 APK_KEYSTORE_COUNTRY="country" # country
 
 # Constants
-readonly VERSION_SDK=$(eval "$ANDROID_HOME/tools/bin/sdkmanager --list | grep 'build-tools;' | tail -1 | grep -oEi '\d+\.\d+\.\d+' | tail -1")
+readonly VERSION_SDK=$(eval "ls $ANDROID_HOME/build-tools/ | tail -1")
 readonly PATH_FILE="platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk"
 
 # Generate keystore file
